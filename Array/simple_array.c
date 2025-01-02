@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main (){
 
-int arr[5] = {1,2,3,4,5};
+int arr[10] = {1,2,3,4,5,6,7,8,9,10};
 printf("Array is - ");
-for( int i=0; i<5; i++ ){
-    printf("%d ",arr[i]);
+for( int i=0; i<10; i++ ){
+    printf("%d  ",arr[i]);
 }
 
     return 0;
