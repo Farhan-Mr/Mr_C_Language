@@ -16,8 +16,8 @@ int main (){
     emp2.salary = 79000.50;
     
             printf("Employee 1\nName = %s\nAge = %d\nSalary = %.2f",emp1.name,emp1.age,emp1.salary);
-        printf("\nEmployee 1\nName = %s\nAge = %d\nSalary = %.2f",emp2.name,emp2.age,emp2.salary);
-    printf("\nEmployee 1\nName = %s\nAge = %d\nSalary = %.2f",emp3.name,emp3.age,emp3.salary);
+        printf("\nEmployee 2\nName = %s\nAge = %d\nSalary = %.2f",emp2.name,emp2.age,emp2.salary);
+    printf("\nEmployee 3\nName = %s\nAge = %d\nSalary = %.2f",emp3.name,emp3.age,emp3.salary);
 
 
     
