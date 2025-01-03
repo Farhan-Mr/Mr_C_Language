@@ -13,7 +13,7 @@ int *ptr;
     // ptr[3] = 44;
     // ptr[4] = 47;
 
-// Method 2 - 
+// Method 2 - use of loop to enter number's - 
 printf("Enter no. - ");
     for( int i=0; i<5; i++ ){
         scanf("%d",&ptr[i]);
