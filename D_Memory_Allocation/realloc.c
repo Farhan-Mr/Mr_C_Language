@@ -26,6 +26,6 @@ int main (){
                 printf("%d ",ptr[i]);
             }
 
-
+    printf("Done");
     return 0;
 }
