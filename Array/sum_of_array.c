@@ -1,3 +1,5 @@
+/* WAP to make an array and enter its elements then find sum of array - */
+
 #include<stdio.h>
 int main (){
 
