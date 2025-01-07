@@ -1,4 +1,4 @@
-/*WAP to find largest element in array - */
+/*WAP to reverse of array  - */
 // with the help of another array 
 
 #include<stdio.h>
