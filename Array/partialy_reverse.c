@@ -1,4 +1,4 @@
-/*WAP to reverse of array  - */
+/* WAP to reverse some part of array - */
 // with the help of another array 
 
 #include<stdio.h>
@@ -24,7 +24,7 @@ printf("Enter elements for array -\n");
             brr[i] = arr[a-i-1];
             printf("%d  ",brr[i]);
         }
-    printf("\nThanku");
+
 
 return 0;
 }
