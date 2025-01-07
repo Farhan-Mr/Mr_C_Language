@@ -1,29 +1,19 @@
-/* WAP to reverse some part of array - */
-// with the help of another array 
+/* WAP to reverse some part of array - */ 
 
 #include<stdio.h>
 int main (){
 
-int a; 
-printf("Enter size of array - ");
-scanf("%d",&a);
-int arr[a];
-int brr[a];         // use - reverse and store 
-printf("Enter elements for array -\n");
-    for(int i=0; i<a; i++ ){
-        scanf("%d",&arr[i]);
-    }
+int arr[7] = {7,8,6,5,4,3,2};
 
-    printf("Before reverse -");
-    for(int i=0; i<a; i++ ){
-        printf("%d  ",arr[i]);
-    }
-    printf("\nAfter reverse -");
-        for(int i=0; i<a; i++ ){
+for(int i=1, j=4; i<=j; i++,j--){
+    int temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
 
-            brr[i] = arr[a-i-1];
-            printf("%d  ",brr[i]);
-        }
+for(int i=0; i<7; i++){
+    printf("%d ",arr[i]);
+}
 
 
 return 0;
