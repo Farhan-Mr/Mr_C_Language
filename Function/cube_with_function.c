@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int cube(int i);
+int cube(int i);                    // Function Declear
 
 int main (){
     
@@ -10,12 +10,12 @@ int main (){
     printf("Enter no. to find cube :  ");
     scanf("%d",&a);
 
-    int cu = cube(a);
+    int cu = cube(a);               // Function calling
     printf("Cube is %d",cu);
 
     return 0;
 }
-int cube(int a){
+int cube(int a){                    // Function Definition
     int c = a*a*a;
     return c;
 }
