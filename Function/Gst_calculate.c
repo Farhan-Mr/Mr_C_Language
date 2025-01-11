@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-void gst_price(float arr[], float pri);             // function declear
+void gst_price(float arr[], int pri);             // function declear
 
 int main() {
 
@@ -18,9 +18,8 @@ int main() {
     return 0;
 }
 
-void gst_price(float arr[], float pri)             // function defination 
+void gst_price(float arr[], int pri)             // function defination 
 {
-    
     for(int i=0; i<pri; i++){
         float pri_gst = arr[i]+(arr[i]*0.18);
         printf("Price of Item %d with GST: %.2f\n",(i+1), pri_gst);
