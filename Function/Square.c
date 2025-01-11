@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int square(int i);
+int square(int i);          // function decler 
 
 int main (){
 
@@ -10,7 +10,7 @@ int a;
     printf("\nEnter no. : ");
     scanf("%d",&a);
 
-    int sq = square(a);
+    int sq = square(a);             // function calling 
 
      printf("Square is %d",sq);
 
