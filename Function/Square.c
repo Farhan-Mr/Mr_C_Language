@@ -16,7 +16,7 @@ int a;
 
     return 0;
 }
-int square(int a){
+int square(int a){              // function definition 
 
     int s = a*a;
     return s;
