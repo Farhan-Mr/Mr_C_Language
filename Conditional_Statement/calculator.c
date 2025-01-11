@@ -5,15 +5,15 @@
 int  main (){
 
     int a,b;
-    printf("Enter 1st number - ");
+    while(1)
+    { 
+    printf("\nEnter 1st number - ");
     scanf("%d",&a);
     printf("Enter 2nd number - ");
     scanf("%d",&b);
 
     int num;
-
-    while(1)
-    {        
+       
      printf("\nMenu-\nPress 1 for Addition\nPress 2 for Subtraction\nPress 3 for Multiplication\nPress 4 for Division ");
      printf("\nEnter 0 to Terminate it -\n");
      printf("\nselect one number from 0 to 4  : ");
