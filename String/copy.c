@@ -14,9 +14,10 @@ int main (){
 
    // use of strcpy -
 
-    (new_name,old_name);
+    strcpy(new_name,old_name);
 
-    printf("New Name is %s",new_name);
+    printf("\nNew Name is %s",new_name);
+    printf("\nold Name is %s",old_name);
 
 
 
