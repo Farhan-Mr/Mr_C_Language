@@ -4,12 +4,15 @@
 
 
     #include<stdio.h>
+
+// Structure -
         struct Book
         {
             char author[10];
             char title[10];
             float price; 
         };
+// Main Function -
     int main (){
         struct Book book[5];
 
@@ -18,12 +21,6 @@
             {
                 scanf("%s%s%f",&book[i].author,&book[i].title,&book[i].price);
             }
-        printf("\nDetail of Books are : \n ");
-
-        for(int i=0; i<5; i++)
-        {
-            printf("\nBook %d\nAuthor : %s\nBook Name(Title) : %s\nBook Price : %.2f",(i+1),book[i].author,book[i].title,book[i].price);
-        } 
 
         // Maximum Price
         
