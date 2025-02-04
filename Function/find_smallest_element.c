@@ -1,4 +1,4 @@
-/* WAP to call function and find smallest array */
+/* WAP to call function and find smallest element form given array */
 
 #include<stdio.h>
      void min_element(int arr[], int a);
