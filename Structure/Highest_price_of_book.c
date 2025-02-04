@@ -8,7 +8,7 @@
 // Structure -
         struct Book
         {
-            char author[10];
+            char author[10]; 
             char title[10];
             float price; 
         };
@@ -27,7 +27,7 @@
         int max = 0 ;  
             for(int i=0; i<5; i++)
             {
-                if( book[max].price> book[i].price )
+                if( book[max].price < book[i].price )
                 {
                     max = i ;
                 }
@@ -39,7 +39,7 @@
         int min = 0 ;  
             for(int i=0; i<5; i++)
             {
-                if( book[min].price < book[i].price )
+                if( book[min].price > book[i].price )
                 {
                     min = i ;
                 }
