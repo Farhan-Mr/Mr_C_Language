@@ -42,7 +42,7 @@ int main (){
             }
         }
         // Print sorted array - 
-        printf("\nAfter sorted : ");
+        printf("\nAfter Sorted : ");
         for(int i=0; i<a; i++)
         {
             printf("%d ",arr[i]);
