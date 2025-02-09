@@ -17,6 +17,7 @@ int main(){
     return 0;
 }
 
+    // Decleared function --  
 void factor(int a,int i){
    
     if(i>a){
@@ -25,6 +26,6 @@ void factor(int a,int i){
     if(a % i == 0){
         printf("%d ",i);
     }
-    factor(a,i+1);
+    factor(a,i+1);              // function calling to find factor (recursive function)
     
 }
