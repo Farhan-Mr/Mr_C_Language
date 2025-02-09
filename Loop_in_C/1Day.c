@@ -1,3 +1,5 @@
+/* WAP of simple loop */
+
 #include<stdio.h>
 int main (){
 
