@@ -1,3 +1,5 @@
+/* WAP to use of BREAK statement */
+
 #include<stdio.h>
 int main (){
 
