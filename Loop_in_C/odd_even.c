@@ -1,3 +1,5 @@
+/* WAP to find odd and even number */
+
 #include<stdio.h>
 int main (){
 
