@@ -1,3 +1,5 @@
+/* WAP to use of Continue statement */
+
 #include<stdio.h>
 int main (){
 
