@@ -1,3 +1,7 @@
+/* Write a simple program of Bubble sorting */
+
+// Descending order -
+
 #include<stdio.h>
 int main (){
 
