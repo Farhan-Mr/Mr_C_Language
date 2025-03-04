@@ -1,0 +1,1 @@
+/* WAP to use of strcmp function */
