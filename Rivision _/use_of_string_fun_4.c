@@ -19,7 +19,7 @@
 
         // strcmp function -
 
-        printf("\n1st to 2nd -> %d ",strcmp(str,strr));
+        printf("\n String Comparing -> %d ",strcmp(str,strr));
 
 
         return 0;
